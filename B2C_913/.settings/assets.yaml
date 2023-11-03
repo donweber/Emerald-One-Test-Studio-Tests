@@ -35,7 +35,7 @@ resources:
     resources: 
       - name: B2C_CreateNewAddress.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -47,7 +47,7 @@ resources:
             type: testCustomCode
       - name: B2C_G_PickMultiProductsAndAddToCart.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -67,7 +67,7 @@ resources:
             type: testCustomCode
       - name: B2C_G_PickProduct.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -85,7 +85,7 @@ resources:
             type: testCustomCode
       - name: B2C_G_ProductDetails.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -97,7 +97,7 @@ resources:
             type: testCustomCode
       - name: B2C_GoToCart.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -109,7 +109,7 @@ resources:
             type: testCustomCode
       - name: B2C_GoToCheckout.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -125,7 +125,7 @@ resources:
             type: testCustomCode
       - name: B2C_Homepage.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -143,7 +143,7 @@ resources:
             type: testCustomCode
       - name: B2C_Login.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -153,14 +153,14 @@ resources:
             type: testDatapool
       - name: B2C_Logout.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
           uid: A1EB149F94193E50CEDDB83234326133
       - name: B2C_PaymentInstructions.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -172,14 +172,14 @@ resources:
             type: testCustomCode
       - name: B2C_PlaceOrder.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
           uid: A1EB149F9382F1C0CEDDB83234326133
       - name: B2C_R_PickMultiProductsAndAddToCart.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -199,7 +199,7 @@ resources:
             type: testCustomCode
       - name: B2C_R_PickProduct.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -217,7 +217,7 @@ resources:
             type: testCustomCode
       - name: B2C_R_ProductDetails.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -229,7 +229,7 @@ resources:
             type: testCustomCode
       - name: B2C_ReviewOrder.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -241,7 +241,7 @@ resources:
             type: testCustomCode
       - name: B2C_SearchBySearchterm.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -261,7 +261,7 @@ resources:
     resources: 
       - name: BenchmarkB2CFlow.testsuite
         type: com.ibm.rational.test.lt.schedule
-        version: 10.5.2.0
+        version: 10.5.3.0
         properties: 
           description: 'Stages:
 

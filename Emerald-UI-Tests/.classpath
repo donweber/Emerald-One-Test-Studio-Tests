@@ -95,12 +95,6 @@
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/UI_Upgrade_Fix/zippedExtLibs/x64_geckodriver_0_21.zip"/>
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/UI_Upgrade_Fix/zippedExtLibs/x64_geckodriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/UI_Upgrade_Fix/zippedExtLibs/x64_IEDriverServer.zip"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/httpclient-4.5.13.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/httpcore-4.4.13.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/commons-codec-1.15.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/httpmime-4.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/HCL/HCLIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20230309_2314/libraries/slf4j-simple-1.7.30.jar"/>
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/SoFyUpdatesApril2023/zippedExtLibs/RPTKHelpers.zip"/>
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/SoFyUpdatesApril2023/zippedExtLibs/mac_msedgedriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/stuart.walker/HCL/hclonetest/SoFyUpdatesApril2023/zippedExtLibs/linux_msedgedriver.zip"/>

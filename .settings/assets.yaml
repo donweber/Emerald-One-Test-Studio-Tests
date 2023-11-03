@@ -1,0 +1,316 @@
+name: Emerald-One-Test-Studio-Tests
+projectReferences: 
+  - /B2C_913
+  - /Emerald-UI-Tests
+resources: 
+  - name: B2C_913
+    resources: 
+      - name: .classpath
+        type: com.ibm.rational.test.lt.classpath
+      - name: Datapools
+        resources: 
+          - name: 625.csv
+            type: com.ibm.rational.test.lt.datapool
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/B2C_913/Datapools/625.csv.metadata
+                type: datasetMetadata
+          - name: 625.csv.metadata
+          - name: searchterm_oob.csv
+            type: com.ibm.rational.test.lt.datapool
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/B2C_913/Datapools/searchterm_oob.csv.metadata
+                type: datasetMetadata
+          - name: searchterm_oob.csv.metadata
+          - name: userids.csv
+            type: com.ibm.rational.test.lt.datapool
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/B2C_913/Datapools/userids.csv.metadata
+                type: datasetMetadata
+          - name: userids.csv.metadata
+      - name: Modules_B2C
+        resources: 
+          - name: B2C_CreateNewAddress.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F93169B60CEDDB83234326133
+          - name: B2C_G_PickMultiProductsAndAddToCart.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB2537EB1F5420E05BB73662396136
+          - name: B2C_G_PickProduct.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB1C9AE0A604D0CB61B93431326163
+          - name: B2C_G_ProductDetails.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F940FEF80CEDDB83234326133
+          - name: B2C_GoToCart.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F93AB3A40CEDDB83234326133
+          - name: B2C_GoToCheckout.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F93541990CEDDB83234326133
+          - name: B2C_Homepage.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB17AD5C8F0530DAEEB46433623734
+          - name: B2C_Login.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F93472140CEDDB83234326133
+            dependencies: 
+              - path: /B2C_913/Datapools/userids.csv
+                type: testDatapool
+          - name: B2C_Logout.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F94193E50CEDDB83234326133
+          - name: B2C_PaymentInstructions.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB9129A9CF90D4C725B66562396264
+          - name: B2C_PlaceOrder.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F9382F1C0CEDDB83234326133
+          - name: B2C_R_PickMultiProductsAndAddToCart.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB1D29A245F350FC69B73738356532
+          - name: B2C_R_PickProduct.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB1C995AB0C3C0CB61B93431326163
+          - name: B2C_R_ProductDetails.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F93A39920CEDDB83234326133
+          - name: B2C_ReviewOrder.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F932D0990CEDDB83234326133
+          - name: B2C_SearchBySearchterm.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB149F9405DD60CEDDB83234326133
+            dependencies: 
+              - path: /B2C_913/Datapools/625.csv
+                type: testDatapool
+              - path: /B2C_913/Datapools/searchterm_oob.csv
+                type: testDatapool
+      - name: Schedules_B2C
+        resources: 
+          - name: BenchmarkB2CFlow.testsuite
+            type: com.ibm.rational.test.lt.schedule
+            version: 10.5.3.0
+            properties: 
+              description: 'Stages:
+
+	users=10; duration=1 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_G_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_GoToCheckout,B2C_CreateNewAddress,B2C_PaymentInstructions,B2C_ReviewOrder,B2C_PlaceOrder,B2C_Homepage,B2C_G_PickProduct,B2C_Homepage,B2C_SearchBySearchterm,B2C_G_ProductDetails
+
+'
+              name: BenchmarkB2CFlow
+              type: com.ibm.rational.test.common.schedule.Schedule
+              uid: A1EB358E1BC958ABE8BBE46464323761
+            dependencies: 
+              - path: /B2C_913/Modules_B2C/B2C_CreateNewAddress.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_G_PickMultiProductsAndAddToCart.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_G_PickProduct.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_G_ProductDetails.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_GoToCart.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_GoToCheckout.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_Homepage.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_PaymentInstructions.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_PlaceOrder.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_ReviewOrder.testsuite
+                type: scheduleInvokedTest
+              - path: /B2C_913/Modules_B2C/B2C_SearchBySearchterm.testsuite
+                type: scheduleInvokedTest
+      - name: perf-cluster-1-onetest-2.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-3.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-4.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-5.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-6.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-7.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-8.location
+        type: com.ibm.rational.test.lt.location
+      - name: perf-cluster-1-onetest-9.location
+        type: com.ibm.rational.test.lt.location
+  - name: Emerald-UI-Tests
+    resources: 
+      - name: .classpath
+        type: com.ibm.rational.test.lt.classpath
+      - name: Emerald
+        resources: 
+          - name: 'Add Item to basket.testsuite'
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB8C1EE9D1A430CA78E46230646563
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/hclsofy_com_166.ma
+                type: test#moeb.applicationPackage
+          - name: 'Checkout item-add.recdata'
+          - name: 'Checkout item-add.recsession'
+            type: com.ibm.rational.test.lt.recsession
+            dependencies: 
+              - path: '/Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/Checkout item-add.recdata'
+                type: recsessionRecdata
+          - name: 'Checkout item.testsuite'
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB8BFA15E0A1E0F2CDB53064376535
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/hclsofy_com_166.ma
+                type: test#moeb.applicationPackage
+          - name: 'Login Add Item & Checkout.testsuite'
+            type: com.ibm.rational.test.lt.scenario
+            version: 10.5.3.0
+            properties: 
+              description: 'Test(s): 
+
+	Login
+
+	Add Item to basket
+
+	Checkout item
+
+'
+              name: 'Login Add Item & Checkout'
+              type: com.ibm.rational.test.common.schedule.ScenarioTestsuite
+              uid: A1EB8BDE033D4640F2CDB53064376535
+            dependencies: 
+              - path: '/Emerald-UI-Tests/Emerald/Add Item to basket.testsuite'
+                type: scheduleInvokedTest
+              - path: '/Emerald-UI-Tests/Emerald/Checkout item.testsuite'
+                type: scheduleInvokedTest
+              - path: /Emerald-UI-Tests/Emerald/Login.testsuite
+                type: scheduleInvokedTest
+          - name: Login.testsuite
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB8C1EE9B54290CA78E46230646563
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/hclsofy_com_166.ma
+                type: test#moeb.applicationPackage
+              - path: /Emerald-UI-Tests/Emerald/Users.csv
+                type: testDatapool
+          - name: 'Register User.testsuite'
+            type: com.ibm.rational.test.lt.test
+            version: 10.5.3.0
+            properties: 
+              features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+              type: com.ibm.rational.test.lt.lttest
+              uid: A1EB8C1EE9C4D2F0CA78E46230646563
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/hclsofy_com_166.ma
+                type: test#moeb.applicationPackage
+              - path: /Emerald-UI-Tests/Emerald/Users.csv
+                type: testDatapool
+          - name: 'Register Users & Add Address.testsuite'
+            type: com.ibm.rational.test.lt.scenario
+            version: 10.5.3.0
+            properties: 
+              description: 'Test(s): 
+
+	Register User
+
+'
+              name: 'Register Users & Add Address'
+              type: com.ibm.rational.test.common.schedule.ScenarioTestsuite
+              uid: A1EB8BEFD3DF1830F2CDB53064376535
+            dependencies: 
+              - path: '/Emerald-UI-Tests/Emerald/Register User.testsuite'
+                type: scheduleInvokedTest
+          - name: Users.csv
+            type: com.ibm.rational.test.lt.datapool
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/Users.csv.metadata
+                type: datasetMetadata
+          - name: Users.csv.metadata
+          - name: Users_Set2.csv
+            type: com.ibm.rational.test.lt.datapool
+            dependencies: 
+              - path: /Emerald-One-Test-Studio-Tests/Emerald-UI-Tests/Emerald/Users_Set2.csv.metadata
+                type: datasetMetadata
+          - name: Users_Set2.csv.metadata
+          - name: hclsofy_com_166.ma
+            type: moeb.applicationPackage
